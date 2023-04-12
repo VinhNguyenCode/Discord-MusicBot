@@ -1,18 +1,18 @@
 module.exports = {
-  Admins: ["UserID", "UserID"], // Admins of the bot, I don't know what this do. -Darren.
+  Admins: ["735358429228695553"], // Admins of the bot, I don't know what this do. -Darren.
   ExpressServer: true, // If you wanted to make the website run or not
-  DefaultPrefix: process.env.Prefix || ">", // Default prefix, Server Admins can change the prefix
+  DefaultPrefix: process.env.Prefix || "!!", // Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
-  SupportServer: "https://discord.gg/sbySMS7m3v", // Support Server Link
-  Token: process.env.Token || "", // Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "", // Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "", // Discord Client Secret
+  SupportServer: "https://discord.gg/ThFVmgCmJh", // Support Server Link
+  Token: process.env.Token || "MTA3OTY0NDY2NzU0NjcwNTk2MA.GOqFzd.QnX0zppiVo6GNf3rM_yhEkYpAvao9AFCYeHzo0", // Discord Bot Token
+  ClientID: process.env.Discord_ClientID || "1079644667546705960", // Discord Client ID
+  ClientSecret: process.env.Discord_ClientSecret || "PKTTAf56YlfMctalPmpU1ms6vOXA4kU", // Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], // Discord OAuth2 Scopes
-  ServerDeafen: true, // If you want bot to stay deafened
+  ServerDeafen: false, // If you want bot to stay deafened
   DefaultVolume: 100, // Sets the default volume of the bot, You can change this number anywhere from 1 to 9007199254740991 (JS Integer limit. If you do set it to that, you're a monster.)
   CallbackURL: "/api/callback", // Discord API Callback url. Do not touch it if you don't know what you are doing. All you need to change for website to work is on line 20.
   "24/7": false, // Make the bot stays in VC 24/7 (when you reboot the bot will **not** automatically rejoin.)
-  CookieSecret: "Pikachu is cute", // A cookie for you, cookie for me. make sure you change this value!
+  CookieSecret: "Vinh dep troai", // A cookie for you, cookie for me. make sure you change this value!
   IconURL:
     "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/logo.gif", // URL of all embed author icons | Dont edit unless you dont need that Music CD Spining
   EmbedColor: "RANDOM", // Color of most embeds | Custom Hex value are supported. I.e: "#36393F"
@@ -22,8 +22,8 @@ module.exports = {
 
   Presence: {
     status: "online", // You can show online, idle, and dnd
-    name: "Music", // The message shown
-    type: "LISTENING", // PLAYING, WATCHING, LISTENING, STREAMING
+    name: "Vinh Miner", // The message shown
+    type: "PLAYING", // PLAYING, WATCHING, LISTENING, STREAMING
   },
 
   // You need a lavalink server for this bot to work!!!!
